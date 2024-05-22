@@ -24,5 +24,60 @@
   },
   "paths": {
     "contentPath": "/var/lib/ghost/content"
-  }
+  },
+  "spam": {
+        "user_login": {
+            "minWait": 10,
+            "maxWait": 20,
+            "freeRetries": 1000
+        },
+        "user_reset": {
+            "minWait": 10,
+            "maxWait": 20,
+            "lifetime": 10,
+            "freeRetries": 1000
+        },
+        "global_reset": {
+          "minWait": 10,
+          "maxWait": 20,
+          "lifetime": 10,
+          "freeRetries": 1000
+        },
+        "global_block": {
+          "minWait": 10,
+          "maxWait": 20,
+          "lifetime": 10,
+          "freeRetries": 1000
+        },
+        "private_block": {
+          "minWait": 10,
+          "maxWait": 20,
+          "lifetime": 10,
+          "freeRetries": 1000
+        },
+        "content_api_key": {
+          "minWait": 10,
+          "maxWait": 20,
+          "lifetime": 10,
+          "freeRetries": 1000
+        },
+        "member_login": {
+          "minWait": 10,
+          "maxWait": 20,
+          "lifetime": 10,
+          "freeRetries": 1000
+        },
+        "webmentions_block": {
+          "minWait": 10,
+          "maxWait": 20,
+          "lifetime": 10,
+          "freeRetries": 1000
+        },
+        "email_preview_block": {
+          "minWait": 10,
+          "maxWait": 20,
+          "lifetime": 10,
+          "freeRetries": 1000
+        }
+    }
 }
